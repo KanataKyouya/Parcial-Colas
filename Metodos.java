@@ -20,7 +20,7 @@ public class Metodos {
 
         try {
 
-            int opt = Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opersonaion:\n\n1: Agregar persona\n2: Consultar persona\n3: Actualizar persona\n4: Eliminar persona\n5: Ver Personas sensadas\n6: Salir del programa"));
+            int opt = Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opción:\n\n1: Agregar persona\n2: Consultar persona\n3: Actualizar persona\n4: Eliminar persona\n5: Ver Personas sensadas\n6: Salir del programa"));
 
             if (opt >= 1 && opt <= 6) {
 
